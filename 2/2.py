@@ -1,5 +1,3 @@
-Q
-
 题目描述
 输入一个矩形的长和宽，输出它的面积
 
@@ -9,8 +7,12 @@ Q
 输出
 一行，即该矩形的面积
 
+样例输入
+3 5
+样例输出
+15 
+
 A
 
-a = int(input())
-b = int(input())
+a,b=map(int,input().split())
 print(a * b)
